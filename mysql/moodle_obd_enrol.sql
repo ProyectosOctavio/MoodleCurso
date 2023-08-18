@@ -1,0 +1,86 @@
+-- MySQL dump 10.13  Distrib 8.0.30, for Win64 (x86_64)
+--
+-- Host: localhost    Database: moodle
+-- ------------------------------------------------------
+-- Server version	8.0.30
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `obd_enrol`
+--
+
+DROP TABLE IF EXISTS `obd_enrol`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `obd_enrol` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `enrol` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT '',
+  `status` bigint NOT NULL DEFAULT '0',
+  `courseid` bigint NOT NULL,
+  `sortorder` bigint NOT NULL DEFAULT '0',
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `enrolperiod` bigint DEFAULT '0',
+  `enrolstartdate` bigint DEFAULT '0',
+  `enrolenddate` bigint DEFAULT '0',
+  `expirynotify` tinyint(1) DEFAULT '0',
+  `expirythreshold` bigint DEFAULT '0',
+  `notifyall` tinyint(1) DEFAULT '0',
+  `password` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `cost` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `currency` varchar(3) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `roleid` bigint DEFAULT '0',
+  `customint1` bigint DEFAULT NULL,
+  `customint2` bigint DEFAULT NULL,
+  `customint3` bigint DEFAULT NULL,
+  `customint4` bigint DEFAULT NULL,
+  `customint5` bigint DEFAULT NULL,
+  `customint6` bigint DEFAULT NULL,
+  `customint7` bigint DEFAULT NULL,
+  `customint8` bigint DEFAULT NULL,
+  `customchar1` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `customchar2` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `customchar3` varchar(1333) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `customdec1` decimal(12,7) DEFAULT NULL,
+  `customdec2` decimal(12,7) DEFAULT NULL,
+  `customtext1` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `customtext2` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `customtext3` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `customtext4` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `timecreated` bigint NOT NULL DEFAULT '0',
+  `timemodified` bigint NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `obd_enro_enr_ix` (`enrol`),
+  KEY `obd_enro_cou_ix` (`courseid`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci ROW_FORMAT=COMPRESSED COMMENT='Instances of enrolment plugins used in courses, fields marke';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `obd_enrol`
+--
+
+LOCK TABLES `obd_enrol` WRITE;
+/*!40000 ALTER TABLE `obd_enrol` DISABLE KEYS */;
+INSERT INTO `obd_enrol` VALUES (1,'manual',0,2,0,NULL,0,0,0,0,86400,0,NULL,NULL,NULL,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665030930,1665030930),(2,'guest',1,2,1,NULL,0,0,0,0,0,0,'',NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665030930,1665030930),(3,'self',1,2,2,NULL,0,0,0,0,86400,0,NULL,NULL,NULL,5,0,0,0,1,0,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665030930,1665030930),(4,'manual',0,3,0,NULL,0,0,0,0,86400,0,NULL,NULL,NULL,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665083579,1665083579),(5,'guest',1,3,1,NULL,0,0,0,0,0,0,'',NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665083579,1665083579),(6,'self',1,3,2,NULL,0,0,0,0,86400,0,NULL,NULL,NULL,5,0,0,0,1,0,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665083579,1665083579),(7,'manual',0,4,0,NULL,0,0,0,0,86400,0,NULL,NULL,NULL,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665083699,1665083699),(8,'guest',1,4,1,NULL,0,0,0,0,0,0,'',NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665083699,1665083699),(9,'self',1,4,2,NULL,0,0,0,0,86400,0,NULL,NULL,NULL,5,0,0,0,1,0,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1665083699,1665083699);
+/*!40000 ALTER TABLE `obd_enrol` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-10-11 19:38:39

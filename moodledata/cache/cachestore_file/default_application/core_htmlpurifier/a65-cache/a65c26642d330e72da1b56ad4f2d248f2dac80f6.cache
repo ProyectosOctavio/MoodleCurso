@@ -1,0 +1,4 @@
+s:333:"<p>&lt;</p>
+
+<p>p&gt;Este valor determina el máximo número de respuestas que se usarán en la lección. Si una lección solo utilizará preguntas de VERDADERO o FALSO podemos asignarle el valor de 2. Esta configuración puede cambiarse en cualquier momento, porque solamente afecta lo que vé el profesor, no afecta los datos.</p>
+";

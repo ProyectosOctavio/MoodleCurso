@@ -1,0 +1,9 @@
+a:13:{s:6:"copied";s:10:"¡Copiado!";s:4:"copy";s:6:"Copiar";s:15:"copytoclipboard";s:21:"Copiar al pisapapeles";s:9:"installer";s:768:"<h3>Configuración de la biblioteca de componente</h3>
+    <p>Antes de que pueda ver el contenido de la biblioteca de componente usted necesitará tener acceso de SHELL a su instalación de Moodle y poder escribir a la carpeta /admin/tool/componentlibrary y tener npm instalado en su servidor Moodle.</p>
+    <p>Si usted cumple con estos requisitos usted puede navegar a su carpeta raíz Moodle y ejecutar:</p>
+    <pre>$ npm install</pre>
+    <pre>$ npm install grunt</pre>
+    <p>Esto buscará todos los paquetes requeridos para construir los documentos de la biblioteca de componente.</p>
+    <p>Una vez que estén instaladas usted puede ejecutar:</p>
+    <pre>$ grunt componentlibrary</pre>
+    <p>Para más información vea el archivo README.md en este plugin</p>";s:10:"pluginname";s:48:"Biblioteca de componente de Interfaz del Usuario";s:16:"privacy:metadata";s:73:"El plugin de Biblioteca del componente no almacena ningún dato personal.";s:8:"runjsdoc";s:134:"Documentación JavaScript es generada de forma separada a la biblioteca del componente. Para generarla por favor ejecute 'grunt jsdoc'";s:8:"showboth";s:17:"Mostrar con ambos";s:11:"showdefault";s:22:"Mostrar predeterminado";s:8:"showhelp";s:17:"Mostrar con ayuda";s:9:"showmixed";s:13:"Mostrar mixto";s:12:"showrequired";s:21:"Mostrar con requerido";s:14:"toggleviewinfo";s:46:"Alternar la vista de esta instancia de formato";}

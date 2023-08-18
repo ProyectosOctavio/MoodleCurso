@@ -1,0 +1,16 @@
+s:1405:"<p>La base de datos permite a los participantes crear, mantener y buscar una colección de entradas</p>
+
+<p>La estructura de las entradas es definida  usando diferentes tipos de campos, como por ejemplo texto corto, lista desplegable, área de texto, URL, imagen, o archivo.</p>
+
+<p>Como un profesor, usted puede comentar y valorar entradas. Usted también puede permitirle a los estudiantes valorar y comentar entradas (evaluación por pares). Las valoraciones pueden ser agregadas para formar una calificación final, la cual es grabada en el Libro de calificaciones.</p>
+
+<p>Si se habilita el filtro de auto-enlazado de la base de datos, cualquier entrada en la base de datos será automáticamente enlazado donde aparezcan estas palabras o frases dentro del curso.
+Usted puede usar Base de datos para:</p>
+
+<ul>
+<li><p>Crear una colección colaborativa de enlaces de internet, libros, revisiones de libros, referencias de revistas, etc</p></li>
+<li><p>Para mostrar fotos creadas por estudiantes, posters, sitios web o poesías creadas por alumnos para revisión y comentarios por pares.</p></li>
+</ul>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/400/es_mx_kids/mod/data/view" target="_blank" rel="noreferrer noopener"><i class="icon fa fa-book fa-fw iconhelp icon-pre"></i>Más ayuda<i class="icon fa fa-external-link fa-fw fa-externallink" title="Abre en ventana nueva"></i></a></div>
+";

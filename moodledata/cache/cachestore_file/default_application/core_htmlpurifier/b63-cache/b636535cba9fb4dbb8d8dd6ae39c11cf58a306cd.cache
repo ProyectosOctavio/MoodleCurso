@@ -1,0 +1,12 @@
+s:677:"<p>Las preguntas de este tipo son muy flexibles, y pueden crearse de varias maneras:</p>
+
+<p>con el <a href="https://moodle.org/plugins/tinymce_clozeeditor">plugin adicional 'Editor cloze' para TinyMCE</a> si usa el antiguo editor TinyMCE,</p>
+
+<p>con el <a href="https://moodle.org/plugins/atto_cloze">plugin adicional 'Editor cloze' para Atto)</a> si usa el nuevo editor Atto,</p>
+
+<p>con el <a href="http://projects.ael.uni-tuebingen.de/quiz/htmlarea/">Online Cloze Question Quiz Generator</a>,</p>
+
+<p>o introduciendo texto que contiene códigos especiales.</p>
+
+<p>Los tres métodos crean preguntas incrustadas de opción múltiple, de respuestas cortas y numéricas.</p>
+";

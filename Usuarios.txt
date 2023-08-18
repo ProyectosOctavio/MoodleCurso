@@ -1,0 +1,6 @@
+                                   Usuario:              Contraseña:
+Jorge Alberto Chávez Avilés        jorge(profesor)         Usuario123.
+Yizark Al Farrach                  yizark(profesor)        Usuario123.
+Octavio André Guevara Salvatierra  octavio(admin)          2003Oags*
+Jorge Luis Morales Reyes           jorgeprofesor(profesor) Usuario123.
+Norman Josue Romero Meza           norman(profesor)        Usuario123.

@@ -1,0 +1,11 @@
+s:1054:"<p>El módulo carpeta (folder) le permite al profesor mostrar un número de archivos relacionados que están dentro de una sola carpeta, reduciendo el arrastrado (scrolling) de la página del curso. Un archivo comprimido en ZIP puede subirse y luego descomprimirse para ser mostrado, o se puede crear una carpeta vacía y se le suben archivos dentro de ella.</p>
+
+<p>Una carpeta puede emplearse</p>
+
+<ul>
+<li>Para una serie de archivos sobre un tópico/tema, por ejemplo una colección de trabajos de fin de curso en formato PDF</li>
+<li>Para proporcionar un espacio compartido para subir materiales a los profesores en la página del curso (haciendo invisible la carpeta a los alumnos de forma que únicamente la puedan ver los profesores).</li>
+</ul>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/400/es_mx_kids/mod/folder/view" target="_blank" rel="noreferrer noopener"><i class="icon fa fa-book fa-fw iconhelp icon-pre"></i>Más ayuda<i class="icon fa fa-external-link fa-fw fa-externallink" title="Abre en ventana nueva"></i></a></div>
+";

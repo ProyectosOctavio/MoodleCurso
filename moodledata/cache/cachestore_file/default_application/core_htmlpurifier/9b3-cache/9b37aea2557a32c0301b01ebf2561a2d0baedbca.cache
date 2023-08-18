@@ -1,0 +1,2 @@
+s:454:"<p>Un campo de texto que contiene las expresiones de filtrado permitidas para las URLs bloqueadas. El uso del caracter del comodín '*' es posible. Ejemplos de expresiones: 'ejemplo.com' o 'ejemplo.com/cosas/*'. 'ejemplo.com' coincide con 'ejemplo.com', 'www.ejemplo.com' y 'www.mail.ejemplo.com'. 'ejemplo.com/cosas/*' coincide con todas las solicitudes de cualquier subdominio de 'ejemplo.com' que tenga 'cosas' como el primer segmento de la ruta.</p>
+";

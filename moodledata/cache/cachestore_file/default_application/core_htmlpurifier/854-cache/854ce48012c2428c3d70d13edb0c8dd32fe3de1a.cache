@@ -1,0 +1,12 @@
+s:857:"<p>El módulo etiqueta permite insertar texto y multimedia en una página de curso junto con enlaces a otros recursos y actividades. Las etiquetas son muy versátiles y pueden ayudar a mejorar la apariencia de un curso si se emplean inteligentemente.</p>
+
+<p>Las etiquetas pueden usarse</p>
+
+<ul>
+<li>Para dividir un larga lista de actividades con un sub-encabezado o una imagen</li>
+<li>Para mostrar directamente un archivo de audio o video incrustado en la página del curso</li>
+<li>Para añadir una descripción corta a una sección de curso</li>
+</ul>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/400/es_mx_kids/mod/label/view" target="_blank" rel="noreferrer noopener"><i class="icon fa fa-book fa-fw iconhelp icon-pre"></i>Más ayuda<i class="icon fa fa-external-link fa-fw fa-externallink" title="Abre en ventana nueva"></i></a></div>
+";

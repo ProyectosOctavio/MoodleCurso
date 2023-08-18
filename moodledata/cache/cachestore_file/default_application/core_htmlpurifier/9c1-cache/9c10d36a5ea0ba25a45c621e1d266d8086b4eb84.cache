@@ -1,0 +1,16 @@
+s:1114:"<p>Si se habilita, los estudiantes solamente pueden intentar el examen usando Safe Exam Browser (Navegador de Examen Seguro).
+Las opciones disponibles son:</p>
+
+<ul>
+<li>No
+<br />Safe Exam Browser no es requerido para intentar el examen.</li>
+<li>Si – Usar una plantilla existente
+<br />Puede ser usada una plantilla para la configuración de Safe Exam Browser. Las plantillas son gestionadas en la Administración del sitio. Sus configuraciones manuales de Usted anularán las configuraciones de la planilla.</li>
+<li>Si – Configurar manualmente
+<br />No será usada una plantilla para la configuración de Safe Exam Browser. Usted puede configurar manualmente Safe Exam Browser.</li>
+<li>Si – Subir mi propia configuración
+<br />Usted puede subir su propio archivo de configuración de Safe Exam Browser. Todas las configuraciones manuales y el uso de plantillas estarán deshabilitadas.</li>
+<li>Si – Usar configuración del cliente de SEB
+<br />No hay configuraciones de Safe Exam Browser del lado de Moodle. El examen puede ser intentado con cualquier configuración de Safe Exam Browser.</li>
+</ul>
+";
